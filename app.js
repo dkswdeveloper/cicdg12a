@@ -17,6 +17,9 @@ const app = require('express')();
 app.get("/", (req,res) => {
     res.json({message : "Server running Trying Again"})
 })
+app.get("/users", (req,res) => {
+    res.json({users : "Sumit, Sachin, Keerti"})
+})
 app.listen(7000, () => {
     console.log("server running on 7000");
 })

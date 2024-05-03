@@ -15,7 +15,7 @@ console.log("added line 3");
 console.log("edited in browser");
 const app = require('express')();
 app.get("/", (req,res) => {
-    res.json({message : "Server running"})
+    res.json({message : "Server running Trying Again"})
 })
 app.listen(7000, () => {
     console.log("server running on 7000");
